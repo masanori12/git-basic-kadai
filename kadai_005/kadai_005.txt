@@ -1,0 +1,20 @@
+[Step1]
+mkdir git_challenge
+cd git_callenge
+git init
+
+[Step2]
+touch hello_world.txt
+
+[Step3]
+git add hello_world.txt
+git status
+git commit -m "hello_world.txtを追加"
+git status
+git add hello_world.txt
+git status
+git commit -m "日本語訳を追記"
+git status
+
+[Step4]
+git log --oneline
